@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="popup-box">
+        <div class="popup">
+            <div class="content">
+
+                <header>
+                    <h1 class="boxTitle">Add a new Note</h1>
+                    <i class='bx bx-x'></i>
+                </header>
+
+                <form>
+                    <div class="row title">
+                        <label>Title</label>
+                        <input type="text" class="input-title">
+                    </div>
+                    <div class="row description">
+                        <label>Description</label>
+                        <textarea class="input-description"></textarea>
+                    </div>
+                    <button class="addBtn" type="submit">Add Note</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="wrapper">
+        <li class="add-box">
+            <div class="icons">
+                <div class="icon"><i class='bx bx-plus'></i></div>
+                <!-- <p class="p">Add New Note</p> -->
+                <div class="allDelete"><i class='bx bxs-trash-alt'></i></div>
+            </div>
+
+        </li>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
